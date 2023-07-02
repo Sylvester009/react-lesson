@@ -1,16 +1,13 @@
 import "./App.css";
+import reactLogo from "./Images/react.logo.png";
+import Navbar from "./Components/Navbar";
+import Main from "./Components/Main";
 
 function App() {
   return (
-    <div className="App">
-      <nav>
-        <h1>Stars Eatery</h1>
-        <ul>
-          <li>Pricing</li>
-          <li>About</li>
-          <li>Contact</li>
-        </ul>
-      </nav>
+    <div className="container">
+      <Navbar logo={reactLogo} />
+      <Main />
     </div>
   );
 }
